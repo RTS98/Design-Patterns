@@ -8,6 +8,35 @@ A design pattern is basically a recipe to solve specific problem.
 
 ## Description
 
+<details>
+    <summary>Creational Patterns</summary>
+    <blockquote style="background:none;color:black">
+        <details>
+            <summary>Factory</summary>     
+            <ul>
+                <li>It provides an interface for creating objects in superclass, but allow children to alter the type of objects that will be created</li>
+                <li>Use when the type of the objects are not known beforehand</li>
+                <li>Use when the program is meant to be extende by its clients</li>
+                <li>Use when the program should save resources by reusing existing objects</li>
+                <li>Pros: Avoid tight coupling. Respects Single Responsability and Open/Closed Principles</li>
+                <li>Cons: A lot of new classes are added</li>
+            </ul>   
+        </details>
+        <details>
+            <summary>Abstract Factory</summary>        
+        </details>
+        <details>
+            <summary>Prototype</summary>        
+        </details>
+        <details>
+            <summary>Builder</summary>        
+        </details>
+        <details>
+            <summary>Singleton</summary>        
+        </details>
+    </blockquote>
+</details>
+
 # Reference
 
 As a reference I used this [site](https://refactoring.guru/design-patterns).\
