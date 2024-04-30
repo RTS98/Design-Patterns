@@ -10,7 +10,7 @@ A design pattern is basically a recipe to solve specific problem.
 
 <details>
     <summary>Creational Patterns</summary>
-    <blockquote style="background:none;color:inherit">
+    <blockquote style="background:none;">
         <details>
             <summary>Factory</summary>     
             <ul>
