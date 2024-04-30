@@ -16,14 +16,22 @@ A design pattern is basically a recipe to solve specific problem.
             <ul>
                 <li>It provides an interface for creating objects in superclass, but allow children to alter the type of objects that will be created</li>
                 <li>Use when the type of the objects are not known beforehand</li>
-                <li>Use when the program is meant to be extende by its clients</li>
+                <li>Use when the program is meant to be extended by its clients</li>
                 <li>Use when the program should save resources by reusing existing objects</li>
                 <li>Pros: Avoid tight coupling. Respects Single Responsability and Open/Closed Principles</li>
                 <li>Cons: A lot of new classes are added</li>
             </ul>   
         </details>
         <details>
-            <summary>Abstract Factory</summary>        
+            <summary>Abstract Factory</summary>
+            <ul>
+                <li>It is way to create families of related objects without specifying their concrete class</li>
+                <li>The client can work with any concrete factory as long as it communicates with their objects through interfaces</li>
+                <li>The application is responsible to create the concrete factory and inject it into the client</li>
+                <li>Use when creating cross-platform UI components without coupling client code to concrete components</li>
+                <li>Pros: Avoid tight coupling. Respects Single Responsability and Open/Closed Principles</li>
+                <li>Cons: A lot of new classes are added</li>
+            </ul>           
         </details>
         <details>
             <summary>Prototype</summary>        
