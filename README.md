@@ -75,6 +75,32 @@ A design pattern is basically a recipe to solve specific problem.
         </details>
     </blockquote>
 </details>
+<details>
+    <summary>Structural Patterns</summary>
+    <blockquote style="background:none;">
+        <details>
+            <summary>Adapter</summary>     
+        </details>
+        <details>
+            <summary>Bridge</summary>     
+        </details>
+        <details>
+            <summary>Composite</summary>     
+        </details>
+        <details>
+            <summary>Decorator</summary>     
+        </details>
+        <details>
+            <summary>Facade</summary>     
+        </details>
+        <details>
+            <summary>Flyweight</summary>     
+        </details>
+        <details>
+            <summary>Proxy</summary> 
+        </details>
+    </blockquote>
+</details>
 
 # Reference
 
