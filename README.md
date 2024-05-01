@@ -37,7 +37,17 @@ A design pattern is basically a recipe to solve specific problem.
             <summary>Prototype</summary>        
         </details>
         <details>
-            <summary>Builder</summary>        
+            <summary>Builder</summary>
+            <ul>
+                <li>It is way to create objects step by step</li>
+                <li>It is possible to create different type of object using same construction code</li>
+                <li>This pattern extracts object construction code out of its own class and move to a builder</li>
+                <li>Avoids huge constructors and unnecessary properties for particular cases</li>
+                <li>Use when construct Comoposite trees or other complex objects</li>
+                <li>Pros: Reuses same construction logic when building different representations of objects</li>
+                <li>Pros: Respects Single Responsability by detaching costruction code from business logic</li>
+                <li>Cons: A lot of new classes are added</li>
+            </ul>        
         </details>
         <details>
             <summary>Singleton</summary>        
