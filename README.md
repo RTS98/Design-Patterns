@@ -34,7 +34,17 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>           
         </details>
         <details>
-            <summary>Prototype</summary>        
+            <summary>Prototype</summary>
+            <ul>
+                <li>Copy existing objects without making the code dependent on classes</li>
+                <li>Copying from outside is not always possible because of private fields that may exist</li>
+                <li>The cloning action comes from inside object</li>
+                <li>It is also possible to create a Prototype Registry for storing frequently used prototypes - Hash Map is the easiest solution</li>
+                <li>Use when code should not depend on the concrete classes of objects that need to be copied</li>
+                <li>Pros: Avoid coupling with concrete implementations</li>
+                <li>Pros: It gets rid of repeated initialization</li>
+                <li>Cons: Cloning objects that have circular dependencies is tricky</li>
+            </ul>                   
         </details>
         <details>
             <summary>Builder</summary>
