@@ -60,7 +60,18 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>        
         </details>
         <details>
-            <summary>Singleton</summary>        
+            <summary>Singleton</summary>
+            <ul>
+                <li>Ensures that a class has only one instance providing global access</li>
+                <li>Real world analogy - a country have only one government and is globally accessible</li>
+                <li>Once that object is created it will be always returned in further calls</li>
+                <li>The object is lazy initialized</li>
+                <li>Use when a class should have only one instance - database object</li>
+                <li>Pros: Guarantees that a class has only one instance</li>
+                <li>Pros: Global access to that instance</li>
+                <li>Cons: Requires special treatement in a multithreaded environment</li>
+                <li>Cons: Difficult to test because of the private constructor</li>
+            </ul>               
         </details>
     </blockquote>
 </details>
