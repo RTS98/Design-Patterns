@@ -102,7 +102,16 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>    
         </details>
         <details>
-            <summary>Composite</summary>     
+            <summary>Composite</summary>
+            <ul>
+                <li>It is a way to compose objects into tree structures and work with them as if it is only one objects</li>
+                <li>Real-world analogy: armies and theirs hierarchy</li>
+                <li>It makes senses to use this pattern when core model of the app can be represented as a tree</li>
+                <li>Use when client code is supposed to treat complex and simple elements in the same way</li>
+                <li>Pros: Work with complex data structure easier making use of polymorphism</li>
+                <li>Pros: Adheres to Open Closed principle</li>
+                <li>Cons: It is difficult to create a common interface for classes with different behaviour</li>
+            </ul>         
         </details>
         <details>
             <summary>Decorator</summary>     
