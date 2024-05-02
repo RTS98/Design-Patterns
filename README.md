@@ -79,7 +79,14 @@ A design pattern is basically a recipe to solve specific problem.
     <summary>Structural Patterns</summary>
     <blockquote style="background:none;">
         <details>
-            <summary>Adapter</summary>     
+            <summary>Adapter</summary>
+            <ul>
+                <li>Allows 2 objects with compatible interfaces to communicate</li>
+                <li>Besides converting the object an adapter makes communication possible between 2 different interfaces</li>
+                <li>Real world example: Adapter from european plug to uk socket</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed principles</li>
+                <li>Cons: Increased complexity because of the extra layer that is added</li>
+            </ul>            
         </details>
         <details>
             <summary>Bridge</summary>     
