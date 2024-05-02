@@ -89,7 +89,17 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>            
         </details>
         <details>
-            <summary>Bridge</summary>     
+            <summary>Bridge</summary>
+            <ul>
+                <li>It is a way to split a set of closely related classed into 2 separate hierarchies - abstraction and implementation</li>
+                <li>The abstraction(Remote in our case) is a high-level control that delegates the work to implementation</li>
+                <li>The implementation(Devices) does the concrete work according to each device</li>
+                <li>Use bridge when changing the implementation at runtime is needed</li>
+                <li>Use when dividing a monolithic class that has several variants of some functionality</li>
+                <li>Pros: Platform independent classes and apps - cross platform apps</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed principles</li>
+                <li>Cons: Increased complexity when dividing a cohesive class</li>
+            </ul>    
         </details>
         <details>
             <summary>Composite</summary>     
