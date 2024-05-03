@@ -128,7 +128,15 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>          
         </details>
         <details>
-            <summary>Facade</summary>     
+            <summary>Facade</summary>
+            <ul>
+                <li>Provides a simplified interface to a library</li>
+                <li>Avoids tight coupling to concrete implementation of the 3rd party library</li>
+                <li>Real-world analogy: place an order on phone to a shop or restaurant</li>
+                <li>Use when structuring a complex system into layers</li>
+                <li>Pros: Isolates client code from complex subsystems</li>
+                <li>Cons: A facade can become a <strong>God object</strong> coupled to many clases</li>
+            </ul>            
         </details>
         <details>
             <summary>Flyweight</summary>     
