@@ -114,7 +114,18 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>         
         </details>
         <details>
-            <summary>Decorator</summary>     
+            <summary>Decorator</summary>
+             <ul>
+                <li>Adds new functionality to existing objects</li>
+                <li>Inheritance is not a viable solution therefore aggregation and compositon are used to overcome inheritance issues</li>
+                <li>Real-world analogy: wearing multiple pieces of clothing</li>
+                <li>Use when adding new behaviours to an onject at runtime</li>
+                <li>Pros: Extension without inheritance</li>
+                <li>Pros: Single Responsability Principle</li>
+                <li>Pros: Combine several functionalities by wrapping an object into multiple decorators</li>
+                <li>Cons: Hard to remove a nested decorators</li>
+                <li>Cons: Hard to implement without depending on the order in the stack</li>
+            </ul>          
         </details>
         <details>
             <summary>Facade</summary>     
