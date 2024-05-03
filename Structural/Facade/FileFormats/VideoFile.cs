@@ -1,0 +1,4 @@
+namespace FileFormats
+{
+    class VideoFile { }
+}
