@@ -139,7 +139,16 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>            
         </details>
         <details>
-            <summary>Flyweight</summary>     
+            <summary>Flyweight</summary>
+            <ul>
+                <li>Shares common parts of state between multiple objects</li>
+                <li>This pattern is simply an optimisation</li>
+                <li>Apply this solution when the code has memory issues</li>
+                <li>The Flyweight class(TreeType) has the object part that can be shared among other objects(Tree)</li>
+                <li>Pros: Saves memory</li>
+                <li>Cons: Trades memory over CPUs cycles</li>
+                <li>Cons: The code becomes more complicated</li>
+            </ul>             
         </details>
         <details>
             <summary>Proxy</summary> 
