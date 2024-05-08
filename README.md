@@ -165,6 +165,24 @@ A design pattern is basically a recipe to solve specific problem.
         </details>
     </blockquote>
 </details>
+<details>
+    <summary>Behavioral Patterns</summary>
+    <blockquote style="background:none;">
+        <details>
+            <summary>Chain of Responsability</summary>
+            <ul>
+                <li>It is a way to pass requests along a chain of handlers</li>
+                <li>Solves the issue of a big code with lots of checks</li>
+                <li>Each check is independent and if it fails the other checks are not executed anymore</li>
+                <li>Use when running multiple checks in a particular order is mandatory</li>
+                <li>Use when the code should process lots of different requests</li>
+                <li>Pros: The order of execution is controlled</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed Principles</li>
+                <li>Cons: Some requests are not handled</li>
+            </ul>            
+        </details>
+    </blockquote>
+</details>
 
 # Reference
 
