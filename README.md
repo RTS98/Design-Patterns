@@ -181,6 +181,20 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Some requests are not handled</li>
             </ul>            
         </details>
+        <details>
+            <summary>Command</summary>
+            <ul>
+                <li>Changes a request into a stand-alone object that contains all the information about request</li>
+                <li>Avoids tight coupling between client and business logic</li>
+                <li>It is able to link multiple clients to business logic</li>
+                <li>Real-World analogy: make an order in a bar</li>
+                <li>Use when object can be parametrized with operations</li>
+                <li>Use when queing operations</li>
+                <li>Pros: The order of execution is controlled</li>
+                <li>Pros: Merge simple commands into a complex one</li>
+                <li>Cons: The code becomes more complicated by adding a new layer</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
