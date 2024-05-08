@@ -151,7 +151,17 @@ A design pattern is basically a recipe to solve specific problem.
             </ul>             
         </details>
         <details>
-            <summary>Proxy</summary> 
+            <summary>Proxy</summary>
+            <ul>
+                <li>Provides a placeholder for another object</li>
+                <li>Proxy has the same interface as original object</li>
+                <li>Proxy creates the original object and each request is delegated to it</li>
+                <li>It can used for multiple purposes: lazy initialization, access control, logging and caching</li>
+                <li>Pros: Proxy can work even if the object is not available yet</li>
+                <li>Pros: Adheres to Open/Closed Principle</li>
+                <li>Cons: The code becomes more complicated</li>
+                <li>Cons: Response might take longer</li>
+            </ul>         
         </details>
     </blockquote>
 </details>
