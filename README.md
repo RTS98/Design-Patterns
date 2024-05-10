@@ -195,6 +195,20 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: The code becomes more complicated by adding a new layer</li>
             </ul>            
         </details>
+        <details>
+            <summary>Iterator</summary>
+            <ul>
+                <li>It is a way to parse elements of a collection hiding underlying represantation</li>
+                <li>The underlying data structure can be changed without affecting the client code</li>
+                <li>Parsing details are encapsulated by iterator object</li>
+                <li>Use when collection has a complex data structure under the hood</li>
+                <li>Use when iteration process can be reused across the app</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed Principles</li>
+                <li>Pros: Iteration can be delayed and continue where was left</li>
+                <li>Cons: Less efficient than collection parsers</li>
+                <li>Cons: Could be overkill for simple collections</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
