@@ -209,6 +209,19 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Could be overkill for simple collections</li>
             </ul>            
         </details>
+        <details>
+            <summary>Mediator</summary>
+            <ul>
+                <li>Reduces the dependencies between objects</li>
+                <li>Limits the communication bettween objects and causes them to work using a mediator</li>
+                <li>Real-World analogy: Pilots discuss only with tower control</li>
+                <li>Use when it is hard to change a class because it has a lot of dependecies</li>
+                <li>Use when it is hardly any chance to reuse a component because of its dependecies</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed Principles</li>
+                <li>Pros: Reduces coupling between objects</li>
+                <li>Cons: It can evolve into a <strong>God object</strong></li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
