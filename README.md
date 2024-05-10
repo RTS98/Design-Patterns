@@ -222,6 +222,20 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: It can evolve into a <strong>God object</strong></li>
             </ul>            
         </details>
+        <details>
+            <summary>Memento</summary>
+            <ul>
+                <li>Restore the previous state of an object without revealing internal details</li>
+                <li>Solves the issue of making all class properties publicly available</li>
+                <li>There are 3 ways to implement this pattern. Here is implemented the option with nested classes</li>
+                <li>Use when a previous snapshot of the object is needed</li>
+                <li>Use when encapsulation principle is ommited</li>
+                <li>Pros: Adheres to encapsulation</li>
+                <li>Pros: Originator is not supposed to keep its history of states</li>
+                <li>Cons: Not applicable to all programming languages, e.g. JS or PHP</li>
+                <li>Cons: Memory inefficient when mementos are created too often</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
