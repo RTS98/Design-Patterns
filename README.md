@@ -236,6 +236,20 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Memory inefficient when mementos are created too often</li>
             </ul>            
         </details>
+        <details>
+            <summary>Observer</summary>
+            <ul>
+                <li>Defines a subscription mechanism to notify multiple object about a new change</li>
+                <li>Only the subscribed listeners are notified, nothing more or less</li>
+                <li>Each listener must implement same interface to avoid any issues</li>
+                <li>Real-World analogy: Email newsletter subscription</li>
+                <li>Use when some objects need to observe other objects</li>
+                <li>Use when state change of one object requires updates to other objects</li>
+                <li>Pros: Adheres to Open/Closed Principle</li>
+                <li>Pros: Establish relationships between objects at runtime</li>
+                <li>Cons: Subscribers are notified in random order</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
