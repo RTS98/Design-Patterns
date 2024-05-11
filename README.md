@@ -264,6 +264,21 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Overkill for a few state changes</li>
             </ul>            
         </details>
+        <details>
+            <summary>Strategy</summary>
+            <ul>
+                <li>Defines a family of algorithms and put each one in a separate class</li>
+                <li>Avoids a huge algorithm with many cases that is hard to maintain and understand</li>
+                <li>The client decides what strategy to use</li>
+                <li>Each strategy must follow the same interface</li>
+                <li>Use when different variants of an algorithm are used in the same object</li>
+                <li>Use when a lot of classes are different in the way some behaviour is executed</li>
+                <li>Pros: Swap between different algorithms at runtime</li>
+                <li>Pros: Adheres to Open/Closed Principle</li>
+                <li>Cons: Client must be aware of the different strategies</li>
+                <li>Cons: Overkill for a few algorithms</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
