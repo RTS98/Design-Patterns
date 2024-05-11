@@ -250,6 +250,20 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Subscribers are notified in random order</li>
             </ul>            
         </details>
+        <details>
+            <summary>State</summary>
+            <ul>
+                <li>Defines a mechanism that allows an object to change its state when internal state changes</li>
+                <li>Closely related to <strong>Finite State Machine</strong></li>
+                <li>Avoids the highly usage of conditional statements</li>
+                <li>Each state is now an object that hides the business logic</li>
+                <li>Use when the object acts differently depending on current state</li>
+                <li>Use when class has lots of conditionals about the state</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed Principles</li>
+                <li>Pros: Simiplifies the code</li>
+                <li>Cons: Overkill for a few state changes</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
