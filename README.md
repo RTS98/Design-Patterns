@@ -292,6 +292,19 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Hard to mantain for a template with a lot of steps</li>
             </ul>            
         </details>
+        <details>
+            <summary>Visitor</summary>
+            <ul>
+                <li>Separate algorithms from the objects on which they work</li>
+                <li>Newly added behaviour is put in a separate class called visitor</li>
+                <li>Use when performing an operation on all elements of complex object structure</li>
+                <li>Use when clean up the business logic of auxiliary behaviours</li>
+                <li>Pros: Adheres to Single Responsability and Open Closed Principles</li>
+                <li>Pros: Accumulates useful information while working with various objects</li>
+                <li>Cons: All visitors must be updated each time</li>
+                <li>Cons: Does not access the private field and methods</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
