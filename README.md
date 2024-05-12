@@ -279,6 +279,19 @@ A design pattern is basically a recipe to solve specific problem.
                 <li>Cons: Overkill for a few algorithms</li>
             </ul>            
         </details>
+        <details>
+            <summary>Template</summary>
+            <ul>
+                <li>Defines the skeleton of an algorithm in the superclass and lets the subclasses to override some steps</li>
+                <li>Avoids code duplication in different variations of the algorithm</li>
+                <li>The algorithm should be break down in steps and each one is method</li>
+                <li>Use when the clients extend only few steps of the algorithm</li>
+                <li>Use when some classes contain almost identical algorithm</li>
+                <li>Pros: Move duplicate code in superclass</li>
+                <li>Pros: Let clients to override only a part of the algorithm</li>
+                <li>Cons: Hard to mantain for a template with a lot of steps</li>
+            </ul>            
+        </details>
     </blockquote>
 </details>
 
