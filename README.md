@@ -309,8 +309,8 @@ A design pattern is basically a recipe to solve specific problem.
 </details>
 
 ## What I learned?
-C# features
-Refreshed Object-Oriented design principles
+C# features\
+Refreshed Object-Oriented design principles\
 Identyfing problems and choose the right approach
 
 # Reference
